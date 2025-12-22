@@ -30,22 +30,33 @@ int id_lesen(Nutzer* nutzer){
     return 0;
 }
 
-void buch_ausleihen(Nutzer* nutzer, Buch* buch, int anzahl){
-    /* Hat der Nutzer keinen Titel ausgeliehen, erstelle einen Buch Pointer
-    über die Funktion buch_erstellen.
-    Weise diesen dem Nutzer zu und setze die Anzahl seiner Ausleihe auf 1. */
-}
-void abfrage_buch(Nutzer* nutzer, Buch* buch, int anzahl){
-    
-}
-void buch_rueckgabe(Nutzer* nutzer, Buch* buch, int anzahl){
-
+void buch_ausleihen(Nutzer* nutzer, int anzahl, Buch* buch){
+    /* Hat der Nutzer keinen Titel ausgeliehen, weise dem Pointer titel_ausgeliehen
+    den Wert des Buches zu. Weise diesen dem Nutzer zu und setze die Anzahl seiner Ausleihe auf 1.
+    Hat der Nutzer bereits mindestens ein Buch ausgeliehen, übergib der
+    Funktion buchliste_erweitern den Pointer für die bereits ausgeliehenen
+    Bücher, den Pointer des neuen Buches, und die bisherige Anzahl.
+    Weise die zurückgegebene neue Anzahl dem Nutzer zu. */
 }
 
-void ausleihe_ausgeben(Nutzer* nutzer){
+Buch* abfrage_buch(Nutzer* nutzer, int anzahl, char* buchtitel){
+    /* Hat der Nutzer Titel ausgeliehen, übergib der Funktion finde_buch den
+    Pointer der Ausleihe des Nutzers, die Anzahl der ausgeliehenen Titel und
+    den gesuchten Buchtitel. Übergebe den durch finde_buch erhaltenen Pointer.
+    Hat der Nutzer keinen Titel ausgeliehen, übergebe NULL.*/
+    return NULL;
+}
 
+void buch_rueckgabe(Nutzer* nutzer, int anzahl, char* buchtitel){
+    /* Wenn der Nutzer Bücher ausgeliehen hat, übergib der Funktion
+    titel_löschen den Pointer der Ausleihe, die Anzahl der Medien und 
+    den Pointer des Buchtitels. Weise dem Pointer der Ausleihe
+    den so erhaltenen Buch Pointer zu.
+    Hat der Nutzer kein Buch ausgeliehen, beende die Funktion sofort.
+    */
 }
 
 void definiere_betreuer(Nutzer* nutzer, Nutzer* betreuer){
-
+    /* Weise den Pointer des Betreuers korrekt zu, sodass dieser als
+    Betruer des Nutzers abgespeichert ist.*/
 }

@@ -13,10 +13,9 @@ int main(){
 
 
     id_lesen(nutzer1);
-    buch_ausleihen(nutzer1, buch1, nutzer1->anzahl_ausgeliehen);
-    abfrage_buch(nutzer1, buch1, nutzer1->anzahl_ausgeliehen);
-    buch_rueckgabe(nutzer1, buch1, nutzer1->anzahl_ausgeliehen);
-    ausleihe_ausgeben(nutzer1);
+    buch_ausleihen(nutzer1, nutzer1->anzahl_ausgeliehen, buch1);
+    Buch* buch_ausgeliehen = abfrage_buch(nutzer1, nutzer1->anzahl_ausgeliehen, "Titel 1");
+    buch_rueckgabe(nutzer1, nutzer1->anzahl_ausgeliehen, "Titel 1");
     definiere_betreuer(nutzer1, nutzer2);
 
 
