@@ -16,7 +16,7 @@ buch.c
 Kompiliere den Code über deine IDE oder führe folgenden Befehl im Terminal aus (macOS oder Linux System):
 
 ```bash
-gcc main.c nutzer.c buch.c -o main
+gcc main.c nutzer.c buch.c passwort.c -o main
 ```
 
 Ist dein Syntax korrekt wird der Compiler eine Datei `main` erstellen, die du dann auch ausführen kannst:

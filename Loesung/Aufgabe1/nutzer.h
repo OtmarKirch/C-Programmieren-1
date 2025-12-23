@@ -7,13 +7,15 @@ static int naechste_nutzer_id = 1;
 
 typedef struct Nutzer{
     int id;
-    char password;
+    short int passwort_hash;
     Buch* titel_ausgeliehen;
     int anzahl_ausgeliehen;
     struct Nutzer* betreuer;
 } Nutzer;
 
 int nutzer_id_vergeben(Nutzer* nutzer);
+
+void passwort_hash_abspeichern(Nutzer* nutzer);
 
 Nutzer* nutzer_erstellen();
 

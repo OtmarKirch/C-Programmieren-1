@@ -17,7 +17,7 @@ Um den Code auszuführen öffne ein Terminal (extern oder in Eclipse) und stelle
 Auf einem macOS oder Linux System funktioniert dieser Befehl für die erst Aufgabe:
 
 ```bash
-gcc main.c nutzer.c buch.c -o main
+gcc main.c nutzer.c buch.c passwort.c -o main
 ```
 
 Ist dein Syntax korrekt wird der Compiler eine Datei `main` erstellen, die du dann auch ausführen kannst:
