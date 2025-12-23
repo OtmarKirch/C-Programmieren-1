@@ -15,8 +15,9 @@ short int create_hash(int passwort){
     Funktion erstell wird. Erstell den Hashwert:
     Quersumme der ersten beiden Ziffern multipliziert mit dem Rest der letzten
     beiden Ziffern für Modulo 13. Zuletzt addiere 17 geteil durch die letzte Ziffer.
+    Alle Brüche werden immer abgerundet.
     Bsp für das Passwort 2589:
-    (2 + 5) / 2 * (89 mod 13) + 17 / 9 = 34
+    (2 + 5) / 2 * (89 mod 13) + (17 / 9) = 34
     Gib diesen Wert zurück.
     TIP: Der Rückgabewert ist ein anderer Typ. Nutze einen Typecast dafür.
     */
