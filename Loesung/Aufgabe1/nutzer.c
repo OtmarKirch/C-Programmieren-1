@@ -11,7 +11,9 @@ int nutzer_id_vergeben(Nutzer* nutzer){
 }
 
 void passwort_hash_abspeichern(Nutzer* nutzer){
-    /**/
+    /* Nutze die Funktionen create_passwort um ein Passwort zu erhalten, 
+    und create_hash um den Hashwert dieses Passwortes zu erstellen. Speichere
+    den Hashwert beim Nutzer ab.*/
 };
 
 Nutzer* nutzer_erstellen(){
