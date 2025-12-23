@@ -1,15 +1,18 @@
 # C-Programmierübung
 
-Dies ist eine von mir selbst erstellte Übung, die die Erfahrungen aus der Veranstaltung C-Programmieren 1 an der TH Augsburg im Wintersemester 25/26 darstellt.
+Dies sind von mir selbst erstellte Übungen, die die Erfahrungen aus der Veranstaltung C-Programmieren 1 an der TH Augsburg im Wintersemester 25/26 widergeben.
 
-**Disclaimer:** Ich bin in keiner Weise mit dem Dozenten oder dem Lehrstuhl assoziiert. Ich besuche lediglich die Veranstaltung und werde die Prüfung ablegen. Die vorliegenden Aufgaben sind mit bester Absicht erstellt, spiegeln aber lediglich meine persönliche Erfahrung aus der Veranstaltung wieder und erheben keinerlei Anspruch auf Richtigkeit oder Vollständigkeit. Jeder Nutzer ist selbst für seine Prüfungsvorbereitung verantwortlich.
+**Disclaimer:** Ich bin in keiner Weise mit dem Dozenten oder dem Lehrstuhl assoziiert. Ich besuche lediglich die Veranstaltung und werde die Prüfung ablegen. Die vorliegenden Aufgaben sind mit bester Absicht erstellt, spiegeln aber lediglich meine persönliche Erfahrung aus der Veranstaltung wieder und erheben keinerlei Anspruch auf Richtigkeit oder Vollständigkeit. Jeder Nutzer ist für seine Prüfungsvorbereitung selbst verantwortlich.
 
 ## Deutsch?
 
-In der Welt des Programmieren ist alles auf Englisch. Was soll das also, das hier deutscher Text steht? Der praktische Grund ist, dass Prüfungen (immer noch) auf Deutsch gestellt werden, so auch die Veranstaltung, die mich dazu gebracht hat diese Aufgabensammlung zu erstellen. Daher habe ich mich entschlossen, die Aufgaben in diesem Stil zu erstellen, auch wenn ich das gerne anders halten würde.
+In der Welt des Programmieren ist alles auf Englisch. Was soll also deutscher Text? Der praktische Grund ist, dass Prüfungen (immer noch) auf Deutsch gestellt werden, so auch die Veranstaltung, die mich dazu gebracht hat diese Aufgabensammlung zu erstellen. Daher habe ich mich entschlossen, die Aufgaben in diesem Stil zu erstellen, auch wenn ich das gerne anders halten würde.
 
 ## Ausführung des Codes
-Für die Prüfung wird die IDE Eclipse genutzt. Kompiliere den Code dort am besten über Strg + B (nutze das oft! s. auch [Lernen und Üben](#lernen-und-üben)). Den Code dort auszuführen ist eher unkomfortabel, da das interne Terminal nicht automatisch dafür genutzt wird. Ein externes Terminal muss eingerichtet werden auf das ich an dieser Stelle nicht eingehen möchte.
+Der Code ist so angelegt, dass es möglich sein sollte die Aufgaben fast Zeile für Zeile zu bearbeiten und immer kompilierbaren Code zu haben. Kompiliere oft um dich selbst zu überprüfen.
+
+Für die Prüfung wird die IDE Eclipse genutzt. Kompiliere den Code dort am besten über Strg + B (nutze das oft! s. auch [Lernen und Üben](#lernen-und-üben)). 
+Der kompilierte Code sollte sogar ausführbar sein. In Eclipse ist das eher unkomfortabel, da das interne Terminal nicht automatisch für die Ausgabe genutzt wird. Ein externes Terminal muss eingerichtet werden auf das ich an dieser Stelle nicht eingehen möchte.
 Um den Code auszuführen öffne ein Terminal (extern oder in Eclipse) und stelle sicher, dass du dich im Ordner der Aufgabe befindest. Führe dort den Compiler mit allen .c files aus. 
 Auf einem macOS oder Linux System funktioniert dieser Befehl für die erst Aufgabe:
 

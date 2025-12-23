@@ -12,7 +12,7 @@ void buch_init(Buch* buch);
 
 void buchliste_erweitern(Buch* nutzer_liste, Buch* neues_Buch);
 
-Buch* titel_löschen(Buch* nutzer_liste, Buch* neues_Buch);
+Buch* titel_loeschen(Buch* nutzer_liste, Buch* neues_Buch);
 
 void finde_buch(Buch* ausleihe, int anzahl, char* titel);
 
