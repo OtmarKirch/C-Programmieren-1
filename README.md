@@ -28,13 +28,14 @@ Ist dein Syntax korrekt wird der Compiler eine Datei `main` erstellen, die du da
 
 ## Wie nutze ich diese Aufgaben am besten?
 
-Schreibe Code ausschließlich in die dafür vorgesehenen Felder. Diese sind immer markiert:
+Schreibe Code ausschließlich direkt unter die Aufgabenstellung. Diese sind immer als Blockkommentar angegeben, z.B.:
 
 ```C
-/* Dein Code */
+/* Initialisiere die Werte des Buches mit einem Leerzeichen
+    für den Titel und einer 0 (als char!) für die Buchnummer*/
 ```
 
-Ändere keine weiteren Vorgaben!
+Wenn du dich an die Aufgabe halten möchtest ändere keine weiteren Vorgaben! Für die Lösung ist es nicht notwendig eigene Funktionen zu schreiben. Wenn du die Aufgabe gelöst hast ändere aber gerne den Code ab. Probiere mal aus auch eigene Funktionen zu schreiben und die Parameter bestehender Funktionen anzupassen.
 
 Je nachdem ob du übst oder dich einer Prüfungssituation stellen möchtest kannst du anders herangehen.
 
@@ -74,6 +75,7 @@ srand
 null terminator
 pointer
 Funktionen definieren
+struct
 
 
 ## Anmerkungen, Ergänzungen, Fehlermeldung etc.

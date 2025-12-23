@@ -2,13 +2,14 @@
 
 ## Bearbeitungsstand
 
-Der Code kann kompiliert werden. `nutzer.c` kann vollständig bearbeitet, kompiliert und ausgeführt werden. Die Teile in `buch.c` und `passwort.c` sind in Bearbeitung.
+Der Code kann kompiliert werden. `nutzer.c` und `passwort.c` kann vollständig bearbeitet, kompiliert und ausgeführt werden. Die Teile in `buch.c` sind in Bearbeitung.
 
 ## Üben mit Aufgabe 1
 
 Jede der .c Dateien kann unabhängig voneinenander bearbeitet werden. Die sinngemäße Reihenfolge ist jedoch:
 
 nutzer.c
+passwort.c
 buch.c
 
 ## Kompilieren und Ausführen

@@ -14,6 +14,6 @@ void buchliste_erweitern(Buch* nutzer_liste, int anzahl, Buch* neues_buch);
 
 int titel_loeschen(Buch* nutzer_liste, int anzahl, char* titel);
 
-Buch* finde_buch(Buch* ausleihe, int anzahl, char* titel);
+Buch* finde_buch(Buch* nutzer_liste, int anzahl, char* titel);
 
 #endif // BUCH_H
