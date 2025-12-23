@@ -13,10 +13,10 @@ int main(){
 
 
     id_lesen(nutzer1);
-    buch_ausleihen(nutzer1, nutzer1->anzahl_ausgeliehen, buch1);
-    Buch* buch_ausgeliehen = abfrage_buch(nutzer1, nutzer1->anzahl_ausgeliehen, "Titel 1");
-    buch_rueckgabe(nutzer1, nutzer1->anzahl_ausgeliehen, "Titel 1");
-    definiere_betreuer(nutzer1, nutzer2);
+    // buch_ausleihen(nutzer1, nutzer1->anzahl_ausgeliehen, buch1);
+    // Buch* buch_ausgeliehen = abfrage_buch(nutzer1, nutzer1->anzahl_ausgeliehen, "Titel 1");
+    // buch_rueckgabe(nutzer1, nutzer1->anzahl_ausgeliehen, "Titel 1");
+    // definiere_betreuer(nutzer1, nutzer2);
 
 
     /* Dein Code: Rufe die Funktionen auf, die du testen möchtest. */
