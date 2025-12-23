@@ -1,5 +1,13 @@
 #include "passwort.h"
 
+int create_passwort(){
+    /* Erstelle ein Abfrage für den Nutzer um das Passwort zu erstellen. Fordere ihn
+    mit Hilfe von printf auf eine Zahl mit genau vier Ziffern einzugeben. Lies die Zahl
+    mit Hilfe von scanf ein. Ist das Passwort korrekt gib es zurück. Ist es nicht korrekt,
+    fordere ihn solange auf ein Passwort einzugeben, bis es korrekt ist. (Gehe davon aus,
+    dass der Nutzer nur Zahlen eingibt. Andere Fälle kannst du ignorieren.) */
+};
+
 short int create_hash(int passwort){
     /* Gültige Passwörter sind Zahlen mit vier Ziffern, die als int dieser
     Funktion übergeben werden. Abgespeichert wird ein Hashwert, der durch diese

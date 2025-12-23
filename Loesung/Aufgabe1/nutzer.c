@@ -10,7 +10,9 @@ int nutzer_id_vergeben(Nutzer* nutzer){
     return 0;
 }
 
-void passwort_hash_abspeichern(Nutzer* nutzer);
+void passwort_hash_abspeichern(Nutzer* nutzer){
+    /**/
+};
 
 Nutzer* nutzer_erstellen(){
     /* Weise mit der Funktion malloc einem Pointer angemessenen 
