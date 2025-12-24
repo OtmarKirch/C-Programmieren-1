@@ -3,12 +3,16 @@
 
 typedef struct Buch{
     char* titel;
-    char* buchnummer;
+    short int buchnummer;
 } Buch;
 
 Buch* buch_erstellen();
 
 void buch_init(Buch* buch);
+
+void titel_definieren(Buch* buch, char* titel);
+
+void buchnummer_definieren(Buch* buch, int nummer);
 
 void buchliste_erweitern(Buch* nutzer_liste, int anzahl, Buch* neues_buch);
 

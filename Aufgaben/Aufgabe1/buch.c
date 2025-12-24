@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <string.h>
 #include "buch.h"
 
 Buch* buch_erstellen(){
@@ -7,12 +8,32 @@ Buch* buch_erstellen(){
     Übergib bei Erfolg den Pointer an buch_init um die Wert zu
     initialisieren. Gib den Pointer zurück.
     */
-    return NULL;
+    Buch* buch = malloc(sizeof(Buch));
+    if (!buch) return NULL;
+    buch_init(buch);
+    return buch;
 }
 
 void buch_init(Buch* buch){
     /* Initialisiere die Werte des Buches mit einem Leerzeichen
-    für den Titel und einer 0 (als char!) für die Buchnummer*/
+    für den Titel und einer 0 für die Buchnummer*/
+    buch->titel = NULL;
+    buch->buchnummer = 0;
+}
+
+void titel_definieren(Buch* buch, char* titel){
+    /* Erstelle einen Pointer und weise angemessenen Speicherplatz zu,
+    um den Titel zu spreichern. Kopiere den Titel mit strcpy in den neuen
+    Pointer. Weise dem Buch den neuen Titel Pointer zu.*/
+    char* neuer_buchtitel = malloc(sizeof(titel));
+    strcpy(neuer_buchtitel, titel);
+    buch->titel = neuer_buchtitel;
+}
+
+void buchnummer_definieren(Buch* buch, int nummer){
+    /* Uebersetze die Nummer in den richtigen Datentyp und Weise
+    sie dem Typ zu. */
+    buch->buchnummer = (short int)nummer;
 }
 
 void buchliste_erweitern(Buch* nutzer_liste, int anzahl, Buch* neues_buch){
