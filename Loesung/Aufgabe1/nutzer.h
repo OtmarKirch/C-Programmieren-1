@@ -26,9 +26,9 @@ int id_lesen(Nutzer* nutzer);
 
 void buch_ausleihen(Nutzer* nutzer, int anzahl, Buch* buch);
 
-Buch* abfrage_buch(Nutzer* nutzer, int anzahl, char* buchtitel);
+Buch* abfrage_buch(Nutzer* nutzer, char* buchtitel);
 
-int buch_rueckgabe(Nutzer* nutzer, int anzahl, char* buchtitel);
+int buch_rueckgabe(Nutzer* nutzer, char* buchtitel);
 
 void definiere_betreuer(Nutzer* nutzer, Nutzer* betreuer);
 

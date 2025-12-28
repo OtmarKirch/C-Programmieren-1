@@ -72,7 +72,7 @@ void buch_ausleihen(Nutzer* nutzer, int anzahl, Buch* buch){
     }
 }
 
-Buch* abfrage_buch(Nutzer* nutzer, int anzahl, char* buchtitel){
+Buch* abfrage_buch(Nutzer* nutzer, char* buchtitel){
     /* Hat der Nutzer Titel ausgeliehen, übergib der Funktion finde_buch den
     Pointer der Ausleihe des Nutzers, die Anzahl der ausgeliehenen Titel und
     den gesuchten Buchtitel. Übergebe den durch finde_buch erhaltenen Pointer.
@@ -83,7 +83,7 @@ Buch* abfrage_buch(Nutzer* nutzer, int anzahl, char* buchtitel){
     return NULL;
 }
 
-int buch_rueckgabe(Nutzer* nutzer, int anzahl, char* buchtitel){
+int buch_rueckgabe(Nutzer* nutzer, char* buchtitel){
     /* Wenn der Nutzer Bücher ausgeliehen hat, übergib der Funktion
     titel_löschen den Pointer der Nutzer Ausleihe, die Anzahl der Medien und 
     den Buchtitel. Im Erfolgsfall gibt titel_löschen eine 1 zurück, kann der Titel
