@@ -21,6 +21,8 @@ void set_receiver_address_ipv4(Package*, IPv4);
 
 void set_receiver_address_ipv6(Package*, IPv6);
 
+void set_message(Package*, char*);
+
 void send_packet(Package*);
 
 void read_sender_ip_address();

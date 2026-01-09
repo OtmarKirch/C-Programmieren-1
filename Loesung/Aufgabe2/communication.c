@@ -43,6 +43,11 @@ void set_receiver_address_ipv6(Package*, IPv6){
     Package an richtiger Stelle zu. Weise dem Typ den Wert 6 zu.*/
 };
 
+void set_message(Package*, char*){
+    /* Weise die Nachricht unter MESSAGE in message.h dem Package an
+    richtiger Stelle zu. Nutze dafür die Funktion memcpy*/
+};
+
 void send_packet(Package*){
    /* Erstelle eine PackageUnion. Kopiere die 
    Daten des Packages in die PackageUnion mit Hilf der 
