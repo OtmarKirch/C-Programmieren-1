@@ -2,7 +2,7 @@
 
 ## Bearbeitungsstand
 
-Der Code kann kompiliert werden. `nutzer.c` und `passwort.c` kann vollständig bearbeitet, kompiliert und ausgeführt werden. Die Teile in `buch.c` sind in Bearbeitung.
+Der Code kann kompiliert werden. `nutzer.c` und `passwort.c` kann vollständig bearbeitet, kompiliert und ausgeführt werden. Die Teile in `buch.c` sind in Bearbeitung und können bis einschließlich `buchnummer_definieren()` bearbeitet werden.
 
 ## Üben mit Aufgabe 1
 
@@ -25,3 +25,5 @@ Ist dein Syntax korrekt wird der Compiler eine Datei `main` erstellen, die du da
 ```bash
 ./main
 ```
+
+Du kannst die Funktionen in `main.c` alle einbinden und testen. Dieser Teil ist aber nicht die Aufgabe an sich, die eine Prüfung simulieren würde.
